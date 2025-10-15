@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hacktoberfest 2025 Contributors</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Navigation -->
+    <header class="navbar-glass" role="navigation" aria-label="Main Navigation">
+      <div class="container nav-container">
+        <h1 class="logo">Contributor Showcase</h1>
+        <a href="https://github.com/withaarzoo/Hacktoberfest2025" class="nav-link" target="_blank" rel="noopener">
+          <i class="ri-github-fill"></i> GitHub Repo
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <h2>Meet Our Amazing Community</h2>
+        <p class="subtitle">
+          A heartfelt thank you to all the developers who contributed their time and expertise.
+        </p>
+        <a href="https://github.com/withaarzoo/Hacktoberfest2025" class="cta-button" target="_blank" rel="noopener">
+          View on GitHub
+        </a>
+      </div>
+    </section>
+
+    <!-- Contributors Section -->
+    <main class="main-content container">
+      <section class="contributors">
+        <h2 class="section-title">Our Contributors</h2>
+
+        <!-- Search -->
+        <div class="search-container" role="search">
+          <form id="search-form" class="search-bar" aria-label="Search contributors">
+            <label for="search-input" class="visually-hidden">Search by username</label>
+            <i class="ri-search-line search-icon"></i>
+            <input type="text" id="search-input" placeholder="Search by username..." autocomplete="off" />
+            <button type="submit" class="search-button" aria-label="Submit search">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Dynamic Content -->
+        <div id="loader" class="loader" role="status" aria-live="polite"></div>
+        <div id="contributors-container" class="grid"></div>
+
+        <!-- Load More -->
+        <div id="load-more-container" class="load-more">
+          <button id="load-more-button" class="cta-button" aria-label="Load more contributors">
+            Load More
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Contributor Showcase. Built with ❤️ by the community.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
